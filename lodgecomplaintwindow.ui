@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lodgecomplaintwindow</class>
+ <widget class="QWidget" name="lodgecomplaintwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="res.qrc">:/resources/newlodgecoomplaint.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lodgeComplaintButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>460</y>
+     <width>471</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(255, 255, 255);
+	background-color: rgb(17, 51, 202);
+
+ 
+	
+    /* Border styling */
+	border-color: rgb(17, 51, 202);
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}</string>
+   </property>
+   <property name="text">
+    <string>LODGE COMPLAINT</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ticketIdLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>200</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="messageTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>310</y>
+     <width>451</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

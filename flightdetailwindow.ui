@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>flightdetailwindow</class>
+ <widget class="QWidget" name="flightdetailwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="BACKGROUNDIMAGE">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="res.qrc">:/resources/flightdetail2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLabel">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>199</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="phoneLabel">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>249</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ticketIdInput">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>120</y>
+     <width>191</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	background-color: rgb(139, 185, 255);
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="toLabel">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>380</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fromLabel">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>380</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="wifiLabel">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>300</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="seatNumberLabel">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>50</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="seatClassLabel">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>110</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mealLabel">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>160</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="flightLabel">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>210</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dateLabel">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>260</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="paymentLabel">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>320</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="costLabel">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>470</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+    font-size: 16px;        
+    font-weight: bold;       
+	color: rgb(85, 255, 255);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>120</y>
+     <width>81</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(139, 185, 255);
+    font-size: 16px;        
+    font-weight: bold;       
+	
+	color: rgb(0, 0, 0);
+ 
+	
+    border: 2px solid #555555;  /* Border styling */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 5px;            /* Inner spacing */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>SEARCH</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ticketIdLabel">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>470</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

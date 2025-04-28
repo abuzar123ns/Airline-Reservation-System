@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>viewcomplaintswindow</class>
+ <widget class="QWidget" name="viewcomplaintswindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1112</width>
+    <height>718</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="res.qrc">:/resources/newlodgecoomplaint.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="complaintsTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>881</width>
+     <height>491</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="statusFilterComboBox">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>540</y>
+     <width>76</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>All
+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>
+Pending
+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>In Progress
+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Resolved</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="refreshButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>540</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>REFRESH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewDetailButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>540</y>
+     <width>111</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VIEW DETAIL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="updateStatusButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>540</y>
+     <width>121</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UPDATE STATUS</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
