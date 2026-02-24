@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/uni6_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM",
+	"CMAKE_SOURCE_DIR" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/uni6_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/uni6_autogen.dir/AutoRcc_res_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "D:/qt/6.6.3/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/uni6_autogen.dir/AutoRcc_res_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/res.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

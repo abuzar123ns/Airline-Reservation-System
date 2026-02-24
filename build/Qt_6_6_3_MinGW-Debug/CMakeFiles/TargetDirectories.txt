@@ -1,0 +1,9 @@
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/uni6.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/edit_cache.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/rebuild_cache.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/list_install_components.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/install.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/install/local.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/install/strip.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/uni6_autogen_timestamp_deps.dir
+D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/CMakeFiles/uni6_autogen.dir

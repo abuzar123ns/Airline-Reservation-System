@@ -1,0 +1,1 @@
+-I"D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug/uni6_autogen/include" -isystem D:/qt/6.6.3/mingw_64/include/QtCore -isystem D:/qt/6.6.3/mingw_64/include -isystem "D:/qt/6.6.3/mingw_64/mkspecs/win32-g++" -isystem D:/qt/6.6.3/mingw_64/include/QtWidgets -isystem D:/qt/6.6.3/mingw_64/include/QtGui -isystem D:/qt/6.6.3/mingw_64/include/QtSql

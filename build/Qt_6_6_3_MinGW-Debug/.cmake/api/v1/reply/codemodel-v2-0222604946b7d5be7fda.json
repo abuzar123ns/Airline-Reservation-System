@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6b77d4dffe6818e3bb28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uni6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uni6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uni6-Debug-f497ac1b4ba882695463.json",
+					"name" : "uni6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uni6_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uni6_autogen-Debug-ebc1be505eaacd6280f7.json",
+					"name" : "uni6_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uni6_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uni6_autogen_timestamp_deps-Debug-ff68dc23075f7e72465b.json",
+					"name" : "uni6_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM/build/Qt_6_6_3_MinGW-Debug",
+		"source" : "D:/Airline Reservation/AIRLINERESERVATIONSYSTEM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

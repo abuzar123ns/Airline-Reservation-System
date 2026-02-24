@@ -1,20 +1,3 @@
 <RCC>
-    <qresource prefix="/">
-        <file>resources/Welcomepage.png</file>
-        <file>resources/Loginpage2.png</file>
-        <file>resources/arrow.png</file>
-        <file>resources/arrow2.png</file>
-        <file>resources/bookfightwindow5.png</file>
-        <file>resources/mainwindow5.png</file>
-        <file>resources/login page4.png</file>
-        <file>resources/flightdetail2.png</file>
-        <file>resources/ticketconfirmed.png</file>
-        <file>resources/newlodgecoomplaint.png</file>
-        <file>resources/Admin_Loginwindow copy.png</file>
-        <file>resources/Adminportal copy.png</file>
-        <file>resources/Login_window.png</file>
-        <file>resources/Welcome_window.png</file>
-        <file>resources/Adminportalnew copy.png</file>
-        <file>resources/Details_new copy.png</file>
-    </qresource>
+    <qresource prefix="/"/>
 </RCC>

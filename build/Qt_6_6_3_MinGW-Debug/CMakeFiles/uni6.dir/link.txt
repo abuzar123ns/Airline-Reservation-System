@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\uni6.dir/objects.a
+D:\qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\uni6.dir/objects.a @CMakeFiles\uni6.dir\objects1.rsp
+D:\qt\Tools\mingw1120_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\uni6.dir/objects.a -Wl,--no-whole-archive -o uni6.exe -Wl,--out-implib,libuni6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\uni6.dir\linkLibs.rsp
